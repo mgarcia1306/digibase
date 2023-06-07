@@ -1,0 +1,270 @@
+/* Estilos generales */
+/* .container {
+    box-sizing: border-box;
+    margin-left: 30px;
+    padding: 0;
+    text-align: center;
+  } */
+
+  .body {
+    font-size: 24px;
+    background-color: #d5d4d2a8;
+    font-family: VT323;
+  }
+  
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display: none;
+    z-index: 99;
+  }
+  
+  #footer {
+    font-size: 0.8em;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+  }
+  
+  #footer p {
+    color: rgb(214, 208, 208);
+  }
+  
+
+  /* Estilos para la barra de navegación */
+  input,
+  select {
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  
+  .navbar img {
+    height: 60px;
+  }
+
+  #navbar_1 {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='1200' preserveAspectRatio='none' viewBox='0 0 1440 1200'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1448%26quot%3b)' fill='none'%3e%3cpath d='M358 1136L974 1752' stroke-width='10' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M474 94L786 406' stroke-width='8' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M122 796L-445 229' stroke-width='8' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1189 608L1723 1142' stroke-width='6' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M595 342L253 0' stroke-width='8' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1242 438L1625 821' stroke-width='8' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M67 570L731 1234' stroke-width='8' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M660 1149L-175 314' stroke-width='6' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M75 1004L-615 314' stroke-width='6' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M115 955L909 1749' stroke-width='10' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M975 645L149 -181' stroke-width='6' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M505 1046L898 1439' stroke-width='6' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1012 1156L1737 1881' stroke-width='6' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1249 638L1908 1297' stroke-width='10' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M844 701L1737 1594' stroke-width='10' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1315 1177L853 715' stroke-width='8' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M348 75L1057 784' stroke-width='10' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M841 492L1641 1292' stroke-width='10' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M344 217L-442 -569' stroke-width='8' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M394 1L2 -391' stroke-width='10' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M988 753L1770 1535' stroke-width='10' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1109 1004L1420 1315' stroke-width='6' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1312 622L2196 1506' stroke-width='10' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1276 1091L1991 1806' stroke-width='6' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M126 902L494 1270' stroke-width='10' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1407 900L1964 1457' stroke-width='6' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M820 890L68 138' stroke-width='8' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M909 919L1248 1258' stroke-width='10' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M956 491L1812 1347' stroke-width='6' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M127 973L-640 206' stroke-width='10' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M957 203L1419 665' stroke-width='8' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M659 664L1239 1244' stroke-width='6' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M317 702L-190 195' stroke-width='6' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M440 1005L1229 1794' stroke-width='8' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M250 858L-438 170' stroke-width='10' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1280 160L831 -289' stroke-width='8' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M215 926L-562 149' stroke-width='10' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M164 892L-464 264' stroke-width='10' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1030 44L1561 575' stroke-width='10' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M164 194L957 987' stroke-width='8' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M744 303L1269 828' stroke-width='8' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M558 589L1335 1366' stroke-width='6' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M532 1185L-4 649' stroke-width='10' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1367 699L1873 1205' stroke-width='8' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M323 172L1021 870' stroke-width='8' stroke='url(%23SvgjsLinearGradient1449)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M916 334L1494 912' stroke-width='8' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M410 790L874 1254' stroke-width='10' stroke='url(%23SvgjsLinearGradient1450)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1448'%3e%3crect width='1440' height='1200' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' id='SvgjsLinearGradient1449'%3e%3cstop stop-color='rgba(199%2c 223%2c 251%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(199%2c 223%2c 251%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1450'%3e%3cstop stop-color='rgba(199%2c 223%2c 251%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(199%2c 223%2c 251%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  }
+  
+  #navbar_2 {
+    background-color: #FF991A;
+  }
+  
+  .btn {
+    background-color: #008CC7;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: #035579;
+    color: white;
+  }
+  
+  h1 {
+    color: #008CC7;
+    font-family: 'VT323', monospace;
+    /* font-weight: normal; */
+    /* text-shadow: 1px 1px #ffffff; */
+  }
+  
+
+  /* MODAL */
+  .modal-content {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+  } 
+
+  .card {
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, 0.55);
+    /* width: 100%; */
+  }
+  
+  .card-title {
+    font-size: 15px;;
+  } 
+
+  .card-footer {
+    background-color: transparent;
+  }
+
+  /* #card-modal-style {
+    background-color:rgba(255,193,7,0.3);
+  } */
+
+  /* #card-header-name {
+    color: #008cc7; 
+    font-family: VT323; 
+    font-size: 30px;
+  } */
+
+  .card-header-name {
+    /* color: #008cc7;  */
+    color: #000000;
+    font-family: VT323; 
+    font-size: 22px;
+  }
+  
+  #card-level-p {
+    text-decoration: overline;
+  }
+  
+  /* Estilos para la lista de Digimon */
+  #digimon-list {
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      gap: 1rem; 
+      padding: 1rem;
+    }
+    
+    #digimon-list div {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 0rem;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+      padding: 0rem;
+      width: 50px;
+    }
+    
+    #digimon-list div img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      filter: grayscale(1);
+    }
+
+    #digimon-list div img:hover{
+        filter:none;
+        border-color:#FF991A 2px;
+        background-color: #FF991A;
+    }
+
+
+    /* MEDIA QUERIES */
+
+    @media(max-width:992px) {
+      h5, h1 {
+        font-size: 10px;
+      }
+
+      /* .card {
+        max-width: 350px;
+      } */
+
+      .card-header-name {
+        font-size: 24px;
+      }
+    }
+    
+    @media(max-width:767.98px) {
+      h5, h1 {
+        font-size: 10px;
+      }
+      .navbar img {
+        height: 24px;
+      }
+
+      .card-header-name {
+        font-size: 19px;
+      }
+
+      .modal-content {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+      } 
+
+      /* .card, .card-xs {
+        width:100%;
+        max-width:100%;
+      }
+    } */
+
+    /* @media(max-width:575.98px) {
+      .card, .card-xs {
+        width:150px;
+      } */
+
+
+    }
+    
+
+    
+    /* #digimon-list div h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    #digimon-list div p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }*/
+
+    /* .list-img {
+        width:20px;
+        border: #FF991A;
+        image-rendering:crisp-edges;
+    } */
+
+ 
+  /*.card-body {
+      background-color: cadetblue; 
+    }*/
+  
+  
+  
+  /* Estilos para los detalles de Digimon */
+  /* #digimon-details {
+      display: none;
+      padding: 1rem;
+    }
+    
+    #digimon-details h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    #digimon-details img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+    
+    #digimon-details p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    } */
+  
+  /* Estilos para el botón "Ver Digimon" */
+  /* #ver-digimon {
+      background-color: #008CBA;
+      border: none;
+      border-radius: 0.5rem;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+    }
+    
+    #ver-digimon:hover {
+      background-color: #005F6B;
+    } */
+
+
+    /* @media only screen and (max-width: 575.98px) {
+        #digimon-list {
+            display: none;
+        }
+
+        #digimon-misterio {
+            display: inline-block;
+        }
+    } */
+
